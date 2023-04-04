@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(155, 115, 70);
+}
+body .card-22 {
+  background-color: #e6c875;
+}
+body nav {
+  background-color: rgb(97, 70, 20);
+}
+body .venta1 {
+  background-color: rgb(243, 224, 160);
+}
+body .card {
+  background-color: rgb(243, 224, 160);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.venta1 {
+  margin: 1em;
+  border: 1px solid;
+  border-radius: 40%;
+}
+.venta1 .textoindex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.ir {
+  margin-left: 2rem;
+}
+
+.container .card1 {
+  width: 15rem;
+  height: 27rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.container .card1 .numer {
+  margin-top: 1.5rem;
+}
+.container .card1 .card-title {
+  text-align: center;
+}
+.container .card1 img {
+  width: 10rem;
+  height: 12rem;
+  margin-left: 2.5rem;
+}
+.container .card2 {
+  width: 15rem;
+  height: 29rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.container .card2 .numer {
+  margin-top: 1.5rem;
+}
+.container .card2 .card-title {
+  text-align: center;
+}
+.container .card2 img {
+  width: 10rem;
+  height: 12rem;
+  margin-left: 2.5rem;
+}
+.container .card3 {
+  width: 15rem;
+  height: 24rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.container .card3 .numer {
+  margin-top: 1.5rem;
+}
+.container .card3 .card-title {
+  text-align: center;
+}
+.container .card3 img {
+  width: 10rem;
+  height: 12rem;
+  margin-left: 2.5rem;
+}
+
+input {
+  width: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */
