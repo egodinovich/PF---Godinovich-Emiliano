@@ -24,8 +24,22 @@
 }
 
 .ir {
-    margin-left: 2rem;
+    margin-top: 2rem;
+    position: sticky;
+    top: 0;
+    transform: translateY(10rem);
+
+    img:hover {
+        transform: rotate(45deg);
+    }
+    img {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 0.5rem;
+
+    }
 }
+
 
 .container {
     .card1 {
@@ -72,7 +86,7 @@
         width: 15rem;
         height: 24rem;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 0rem;
 
         .numer {
             margin-top: 1.5rem;
@@ -182,3 +196,9 @@ footer {
         color: #313233;
     }
 }
+
+
+section {
+    max-width: 1316px !important;
+}
+

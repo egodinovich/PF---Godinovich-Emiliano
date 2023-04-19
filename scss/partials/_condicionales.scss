@@ -1,11 +1,28 @@
-$BgTemporada: "Otoño";
+$BgTemporada: "Invierno";
 
 
 @if($BgTemporada =="Invierno") {
     body {
         background-color: rgb(120, 125, 148);
+.ir {
+    a {
+        color: white;
+        margin-left: 0rem;
+    }
+
+        button {
+            background-color: rgb(57, 57, 95);
+            width: 10%;
+            border-radius: 10%;
+            &:hover {
+                background-color: rgb(70, 70, 107);
+            }
+         }
+
+}
         .card-22 {
-            background-color: #92cab9;}
+            background-image: url(/img/Invierno.jpg);
+            background-size: 130%;        }
 
         nav {
             background-color: rgb(40, 40, 78);
@@ -14,6 +31,7 @@ $BgTemporada: "Otoño";
         .venta1 {
             background-color: rgb(223, 233, 245);
         }
+
         .card {
             background-color: rgb(223, 233, 245);
         }
@@ -23,8 +41,11 @@ $BgTemporada: "Otoño";
 @else if($BgTemporada =="Verano") {
     body {
         background-color: #fefac0;
+
         .card-22 {
-            background-color: #edf1ab;}
+            background-image: url(/img/Verano.jpg);
+            background-size: 120%;
+        }
 
         nav {
             background-color: #dad373;
@@ -48,11 +69,15 @@ $BgTemporada: "Otoño";
     }
 }
 
-@if($BgTemporada =="Otoño") {
+@else if($BgTemporada =="Otoño") {
     body {
         background-color: rgb(155, 115, 70);
+
         .card-22 {
-            background-color: #e6c875;}
+            background-image: url(/Img/Otoño.jpg);
+            background-size: 100%;
+        }
+
         nav {
             background-color: rgb(97, 70, 20);
         }
@@ -63,15 +88,18 @@ $BgTemporada: "Otoño";
 
         .card {
             background-color: rgb(243, 224, 160);
-       }
+        }
     }
 }
 
-@if($BgTemporada =="Primavera") {
+@else if($BgTemporada =="Primavera") {
     body {
         background-color: rgb(129, 235, 120);
+
         .card-22 {
-            background-color: #e4eeab;}
+            background-image: url(/img/Primavera.webp);
+            background-size: 140%;        }
+
         nav {
             background-color: rgb(81, 155, 78);
         }
@@ -83,6 +111,6 @@ $BgTemporada: "Otoño";
         .card {
             background-color: white;
 
-       }
+        }
     }
 }
