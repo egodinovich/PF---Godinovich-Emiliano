@@ -10,7 +10,7 @@
 .venta1 {
     margin: 1em;
     border: 1px solid;
-    border-radius: 40%;
+    border-radius: 20%;
 
     .textoindex {
         display: flex;
@@ -20,6 +20,9 @@
         align-items: center;
         justify-items: center;
         align-content: center;
+        b{
+            font-size: 0.7rem;
+        }
     }
 }
 
@@ -36,7 +39,17 @@
         width: 3rem;
         height: 3rem;
         margin-left: 0.5rem;
+        position: contain;
 
+    }
+    .boti {
+        background-color: rgb(120, 125, 148);
+        border: none;
+        width: 4%;
+        margin-left: 1rem;
+        &:hover {
+            background-color: rgb(120, 125, 148);
+        }
     }
 }
 
@@ -202,3 +215,8 @@ section {
     max-width: 1316px !important;
 }
 
+@media screen and (max-width:850px){
+    .ir {
+        display: none;
+    }
+}
